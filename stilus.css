@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 body {
-  background-color: black;
-
+    background-color: lightblue;
 }
-
+img {
+    width: 250%; max-width: 550px;
+}
 h1 {
-  color: white;
-  text-align: center;
+    color: black;
+    text-decoration: none;
 }
-
+h2 {
+    color: red;
+    text-decoration: none;
+}
 p {
-  font-family: verdana;
-  font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
-</style>
-</head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
-
