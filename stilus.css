@@ -2,7 +2,7 @@ body {
     background-color: lightblue;
 }
 img {
-    width: 250%; max-width: 550px;
+    width: 450%; max-width: 950px;
 }
 h1 {
     color: black;
@@ -15,4 +15,8 @@ h2 {
 p {
     color: black;
     text-decoration: none;
+}
+.tarolo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
