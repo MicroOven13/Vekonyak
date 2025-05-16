@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #00FFFF;
+    background-color: red
     padding: 1rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -47,7 +47,7 @@ article {
 
 section {
     background-color: #e6fef1;
-    border-left: 6px solid #10b981;
+    border-left: 6px solid red;
     padding: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 10px;
@@ -55,7 +55,7 @@ section {
 }
 
 h2 {
-    color: #065f46;
+    color: blue;
     margin-top: 0;
     font-size: 1.8rem;
 }
