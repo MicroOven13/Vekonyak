@@ -1,5 +1,10 @@
+body {
+    max-width: 800px;
+    width: 80%;
+    margin: auto;
+}
 img {
-    width: 27.5%;
+    width: 100%;
 }
 .tarolo {
     display: grid;
@@ -8,11 +13,10 @@ img {
 .navbar {
   background-color: #e0f0ff; 
   padding: 10px;
-  display: flex;
   gap: 10px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
 }
-
 .navbar a {
   background-color: #cce5ff;
   padding: 6px 10px;
@@ -24,4 +28,13 @@ img {
 
 .navbar a:hover {
   background-color: #99ccff;
+}
+@media  screen and  (max-width:600px) {
+    body {
+        width: 100%;
+    }
+    .tarolo {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }
