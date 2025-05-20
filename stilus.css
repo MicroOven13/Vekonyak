@@ -2,11 +2,13 @@ body {
   max-width: 800px;
   width: 80%;
   margin: auto;
+  text-align: justify;
 }
 img {
   width: 100%;
 }
 .tarolo {
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
