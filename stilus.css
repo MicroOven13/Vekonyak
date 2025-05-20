@@ -1,17 +1,17 @@
 body {
-    max-width: 800px;
-    width: 80%;
-    margin: auto;
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 .tarolo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .navbar {
-  background-color: #e0f0ff; 
+  background-color: #e0f0ff;
   padding: 10px;
   gap: 10px;
   display: grid;
@@ -29,12 +29,17 @@ img {
 .navbar a:hover {
   background-color: #99ccff;
 }
-@media  screen and  (max-width:600px) {
-    body {
-        width: 100%;
-    }
-    .tarolo {
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    font-size: 20px;
+  }
+  .tarolo {
     display: grid;
     grid-template-columns: 1fr;
-}
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
