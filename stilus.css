@@ -2,10 +2,10 @@ img {
     width: 27.5%;
 }
 h1 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
 }
 .navbar {
-  background-color: #e0f0ff; /* háttérszín a sornak */
+  background-color: #e0f0ff; 
   padding: 10px;
   display: flex;
   gap: 10px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 .navbar a {
-  background-color: #cce5ff; /* háttérszín a link mögé */
+  background-color: #cce5ff;
   padding: 6px 10px;
   text-decoration: none;
   color: #0000cc;

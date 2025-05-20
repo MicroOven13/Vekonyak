@@ -2,5 +2,5 @@ img {
     width:27.5%; 
 }
 h1 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
