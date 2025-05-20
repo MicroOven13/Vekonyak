@@ -4,3 +4,23 @@ img {
 h1 {
     grid-template-columns: 1fr 1fr;
 }
+.navbar {
+  background-color: #e0f0ff; /* háttérszín a sornak */
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  background-color: #cce5ff; /* háttérszín a link mögé */
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #0000cc;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #99ccff;
+}
