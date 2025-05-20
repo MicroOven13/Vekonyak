@@ -1,6 +1,48 @@
-img {
-    width:27.5%; 
+body {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  padding: 10px;
 }
-h1 {
+img {
+  width: 100%;
+}
+.tarolo {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.navbar {
+  background-color: #e0f0ff;
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+.navbar a {
+  background-color: #cce5ff;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #0000cc;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #99ccff;
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    font-size: 20px;
+  }
+  .tarolo {
+    display: grid;
     grid-template-columns: 1fr;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
