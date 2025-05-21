@@ -5,7 +5,16 @@ body {
   text-align: justify;
   padding: 10px;
   font-size: 17px;
-  background-image: url(https://s.24.hu/app/uploads/2019/09/istock-1135163561-e1569245691498-1024x576.jpg);
+  background-color: cornsilk;
+}
+h1 {
+  font-size: 30px;
+}
+h2{
+  font-size: 23px;
+}
+h3 {
+  font-size: 20px;
 }
 img {
   width: 100%;
@@ -17,8 +26,8 @@ img {
 }
 .navbar {
   background-color: #e0f0ff;
-  padding: 20px;
-  gap: 20px;
+  padding: 10px;
+  gap: 10px;
   display: grid;
   grid-template-columns: 200px 200px 200px;
 }
